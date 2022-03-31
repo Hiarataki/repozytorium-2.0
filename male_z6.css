@@ -1,6 +1,4 @@
-:> -uśmiechnieta buzia
-:< -smutna buzia
-:o -zaskoczenie
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,13 +7,11 @@
             color: blue;
             font-weight: bold;
         }
-    </style>
-</head>
 p {
   text-align: center;
   color: green;
 } 
-</style>
+    </style>
 </head>
 
 <body>
