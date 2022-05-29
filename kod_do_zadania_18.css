@@ -1,0 +1,53 @@
+<!-- początek bloku DIV 1 -->
+<div style="background-color: silver; width: 1002px">
+<span style="color: purple;font-size: 1.5cm;font-family: Arial;">
+Znacznik DIV (blok 1)-->Malek
+</span>
+<br />
+<span style="font-size: 1.1cm;font-family: Times New Roman;">
+<b><u> Element blokowy (DIV)</u> </b> jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia obszerniejszych struktur.
+</span>
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7mm;"> <br />
+Zastosowanie DIV
+<ul type="square">
+<li>
+Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka.
+</li>
+<li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.</li>
+</ul>
+</span>
+</div>
+<!-- koniec bloku DIV 
+<!-- początek bloku DIV 2 -->
+<div style="background-color: red; width: 2002px">
+<span style="color: silver;font-size: 1cm;font-family: Arial;">
+  znacznik SPAN(blok 2)-->22.04.22 15:28
+</span>
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 8mm;"> <br />
+<ul type="wheel">
+<li>
+elementy wyświetlane w lini (span) jest elementem liniowym nie mogą zawierać elementów blokowych, ale mogą inne elementy w linii oraz zwykły tekst.
+</li>
+<li>jezeli chcemy w parafrafie część tekstu wyróżnić czerwonym kolorwem, do wyodrębnienia tego tekstu nie mozemy użyć elementu div tylko span, wewnatrz span mozna oczywiscie wpisac rowniez span</li>
+</ul>
+</span>
+</div>
+<!-- koniec bloku DIV 
+<!-- początek bloku DIV 3 -->
+<div style="background-maroon: red; width:1200px">
+<span style="color: silver;font-size: 9mm;font-family: Arial;">
+Różnica mędzy DIV a SPAN (blok 3)-->IIK
+</span>
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 7mm;"> <br />
+<ul type="circle">
+<li>
+spanem wyodrębniamy elementy liniowe a divem blokowe elementy więkrze fragmenty struktury składające się na układ strony
+</li>
+<li>dodatkowo div domyślnie jest wyświetlany w bloku. natomiast span w linii</li>
+</ul>
+</span>
+</div>
+<!-- koniec bloku DIV 
+<!-- Szymon Malek IIK-->
