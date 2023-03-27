@@ -1,16 +1,16 @@
 p
 {font-size:18mm;
-color:RGB(255,99,71);
+color:RGB(0000FF);
 }
 
 p:lang(pl)
 {font-size:25mm;
-color:RGB(144,238,144);
+color:RGB(7D7A78);
 }
 
 p:lang(en)
 {font-size:32mm;
-color:RGB(255,99,71);
+color:RGB(27CFC00);
 }
 body
 {
