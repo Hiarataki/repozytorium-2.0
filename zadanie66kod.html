@@ -1,0 +1,40 @@
+<label for="w3review">Opisz pseudoelemnenty :</label>
+
+<textarea id="w3review" name="w3review" rows="400" cols="500">
+
+--> pseudoelementem :first-line  (opis + przykład z ramki, użyj formatowania tekstu tak jak w opisie teoretyczny):
+
+    Efekty ::first-linesą ograniczone przez długość i zawartość pierwszego wiersza tekstu w elemencie.
+Długość pierwszego wiersza zależy od wielu czynników, w tym szerokości elementu, szerokości dokumentu i rozmiaru czcionki tekstu.
+::first-linenie działa, gdy pierwszy element potomny elementu, który byłby pierwszą częścią pierwszego wiersza, 
+jest elementem wbudowanym na poziomie bloku, takim jak tabela w wierszu.
+
+np.
+p::first-line {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;}
+	
+--> pseudoelementy: :after oraz :before (opis + przykład z ramki, użyj formatowania tekstu tak jak w opisie teoretyczny):
+    
+    Pseudoelementy ::beforei ::afterw CSS umożliwiają wstawianie treści na stronę bez konieczności umieszczania jej w kodzie HTML.
+Chociaż wynik końcowy nie jest w rzeczywistości w DOM, 
+pojawia się na stronie tak, jakby był.
+    
+	np.
+	.mydiv::before {
+    content: url(img/line.png);}
+    .mydiv::after {
+    content: url(img/line.png);}
+
+--> pseudoelement :first-letter (opis + przykład z ramki, użyj formatowania tekstu tak jak w opisie teoretyczny):
+	
+    Pseudoelement CSS stosuje style do pierwszej litery pierwszego wiersza elementu na poziomie bloku ,
+ale tylko wtedy, gdy nie jest poprzedzona inną treścią (taką jak obrazy lub tabele w tekście) .::first-letter.
+	
+	np.p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}
+</textarea>
